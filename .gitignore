@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+*.pem
+*.key
+
+# Generated email content / attachments
+data/attachments/*
+!data/attachments/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
